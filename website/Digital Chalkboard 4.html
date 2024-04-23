@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    
+    <link rel="stylesheet" href="css/asg7.css">
+</head>
+<body>
+    <!--Trivia Question Form-->
+    <div id="Trivia">
+        <p>Trivia Question</p>
+        <p>Q:What is the capital of France?</p>
+        <input type="text" id="triviaAnswer" placeholder="Your answer"  onkeypress="checkEnter(event)">
+        <button id="trivia-submit"  onclick="checkTriviaAnswer()">Submit</button>
+        <div id="triviaResponse"></div>
+    </div>
+
+    <p>Enter a 5-digit number like 12345</p>
+    <input type="text" id="numberInput" placeholder="Enter a 5-digit number">
+    <button onclick="checkNumber()">Check Number</button>
+    <div id="output"></div>
+
+    <script src="js/asg7.js"></script>
+</body>
+</html>

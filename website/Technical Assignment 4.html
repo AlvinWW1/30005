@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="w5.js"></script>
+    <title>Document</title>
+    <script>
+        var sound = new Howl({
+          src: ['80s_vibe.mp3']
+        });
+    </script>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col text-center">
+                <button id="button1" class="btn btn-danger">play</button>
+            </div>
+            <div class="col text-center">
+                <button id="button2" class="btn btn-primary">play/pause</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
