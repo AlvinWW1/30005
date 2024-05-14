@@ -1,1 +1,1 @@
-$(function () {$("#nav-placeholder").load("https://alvinww1.github.io/final//nav.html");});
+$(function () {$("#nav-placeholder").load("https://alvinww1.github.io/final/nav.html");});
