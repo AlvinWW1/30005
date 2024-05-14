@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fun</title>
+</head>
+<body>
+    <script src="js/Digital Chalkboard 5.js"></script>
+    <h3> Part 1: Initial Sorting</h3>
+    <button class="btn btn-primary" onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi'], 'output1')">Results</button>
+    <div id="output1" class="mt-3"></div>
+    <h3>Part 2: Testing Success by Adding More</h3>
+    <button class="btn btn-primary" onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi', 'Blueberries', 'Mango', 'Peach'], 'output2')">Results</button>
+    <div id="output2" class="mt-3"></div>
+    <h3>Part 3: Testing with Fruits later in the alphabet</h3>
+    <button class="btn btn-primary" onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi', 'Blueberries', 'Mango', 'Peach', 'Yuzu'], 'output3')">Results</button>
+    <div id="output3" class="mt-3"></div>
+    <div class="row mt-5">
+        <div class="col">
+            <button id="sortButton" class="btn btn-primary">Input Items</button>
+            <div id="displayArea" class="mt-3"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        input, button { font-size: 16px; padding: 10px; }
+        button { background-color: #007BFF; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; }
+        th, td { text-align: left; padding: 8px; }
+        th { background-color: #f2f2f2; }
+    </style>
+    <title>Music API</title>
+</head>
+<body>
+<h3>Music Search</h3>
+<input type="text" id="searchInput" placeholder="Enter artist or band name">
+<button onclick="searchArtist()">Search</button>
+<div id="artistResults"></div>
+<table id="albumTable" style="display: none;">
+    <thead>
+    <tr>
+        <th>Release Date</th>
+        <th>Album Name</th>
+    </tr>
+    </thead>
+    <tbody id="albumList"></tbody>
+</table>
+<script src="js/Digital Chalkboard 7.js"></script>
+</body>
+</html>
