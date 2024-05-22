@@ -1,0 +1,45 @@
+.container {
+  margin: auto;
+}
+.bg-light {
+  background: rgb(84, 3, 11) !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: rgb(20, 19, 19) !important;
+  background-color: maroon !important;
+}
+.banner {
+  margin-top: 30px;
+  height: 400px;
+  text-align: center;
+}
+.banner .row{
+  margin-top: 30px;
+  text-align: center;
+}
+.banner p {
+  font-size: 20px;
+}
+.footer {
+  background-color: #767676;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
+}
+.container-content {
+  flex: 1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
