@@ -1,1 +1,1 @@
-$(function () {$("#nav-placeholder").load("30005/nav.html");});
+$(function () {$("#nav-placeholder").load("nav.html");});
