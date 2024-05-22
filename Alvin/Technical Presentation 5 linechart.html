@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/TA7.css">
+    <script src="js/jQuery.js"></script>
+    <script src="./js/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <title>Line Chart</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <canvas id="myLineChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myLineChart').getContext('2d');
+        const myLineChart = new Chart(ctx, {
+            type: 'line', 
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June'], 
+                datasets: [{
+                    label: 'Number of visitors', 
+                    data: [65, 59, 80, 81, 56, 55], 
+                    fill: false,
+                    borderColor: 'rgb(75, 192, 192)', 
+                    tension: 0.1 
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true 
+                    }
+                }
+            }
+        });
+    </script>
+    <div id="footer-placeholder"></div>
+    
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>
